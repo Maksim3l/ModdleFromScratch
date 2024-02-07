@@ -1,0 +1,256 @@
+.classmates{
+    border-left: 2px solid #dddddd;
+    padding: 2%;
+    width: 25%;
+}
+.Class-Socials{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+div.amsg p{
+ margin-block-start: 0.25em;
+}
+
+.poster{
+    font-weight: bold;
+}
+.text{
+
+}
+
+hr{
+    width: 75%;
+    border: none;
+    background-color: #dddddd;
+    height: 2px;
+}
+.whole{
+    width: 100%;
+    border: none;
+    background-color: #dddddd;
+    height: 2px;
+}
+
+div.classmates hr{
+    width: 100%;
+    border: none;
+    background-color: #dddddd;
+    height: 1px;
+}
+
+
+.neat {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+}
+
+.white {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    border-bottom: 1px solid #dddddd;
+    overflow: auto;
+    max-width: 80%;
+    max-height: 60%;
+}
+#chat{
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+#btn{
+
+}
+.chatf{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding-right: 5%;
+
+}
+
+
+input[type=text]{
+    width: 40%;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 2px;
+}
+
+select{
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 2px;
+}
+
+
+input[type=password]{
+    width: 40%;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 2px;
+}
+
+button:hover{
+    border-color: #D8BFD8;
+}
+
+table.Profile td{
+    border: 2px solid #dddddd;
+}    
+
+table.Profile tr:first-child td {
+  border-top: 0;
+}
+table.Profile tr td:first-child {
+  border-left: 0;
+}
+table.Profile tr:last-child td {
+  border-bottom: 0;
+}
+table.Profile tr td:last-child {
+  border-right: 0;
+}
+
+.Profile{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+button{
+    height: 40px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 2px;
+}
+
+button[type=submit]:hover{
+    background-color: #D8BFD8;
+    border-color: #D8BFD8;
+}
+
+button[type=submit]{
+    height: 40px;
+    background-color: #222222;
+    font-size: 20px;
+    color: #eeeeee;
+}
+
+h2{
+    font-size: 35px;
+
+}
+
+.l{
+border-right: 4px solid #eeeeee;
+margin-right: 2%;
+    padding-right: 2%;
+}
+
+.r{
+border-left: 4px solid #eeeeee;
+margin-left: 2%;
+    padding-left: 2%;
+}
+
+a{
+ color: #aaaaaa;
+ text-decoration: none;
+ font-family: Arial;
+ font-size: 100%;
+ font-weight:bold;
+}
+
+a.navi{
+ color: #eeeeee;
+ text-decoration: none;
+ font-family: Arial;
+ font-size: 100%;
+ font-weight:bold;
+}
+.nav{
+  padding: 1%;
+	border: 4px solid #222222;
+    background-color:#222222;
+    display: flex;
+  flex-direction: row;
+
+}
+.right{
+ display: flex;
+  flex-direction: row-reverse;
+  flex: 50%;
+
+}
+.left{
+ display: flex;
+  flex-direction: row;
+  flex: 50%;
+  
+}
+ a:hover {
+  color:#D8BFD8;
+}
+.drop {
+  max-width: 400px;
+  height: 200px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  color: darkgoldenrod;
+  border: 6px solid purple;
+  border-radius: 25px;
+}
+
+.drop-over {
+  border-style: solid;
+}
+
+.drop_input {
+  display: none;
+}
+
+.drop_thumb {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-size: cover;
+  position: relative;
+}
+
+.drop_thumb::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  background: rgba(0, 0, 0, 0.75);
+  text-align: center;
+}

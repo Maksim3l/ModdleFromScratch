@@ -1,0 +1,18 @@
+.panel {
+  margin: 20px;
+  width: 300px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: darkgray;
+  color: antiquewhite;
+  border-radius: 6px;
+  display: block;
+  text-decoration: none;
+  float: left;
+}
+.white {
+  min-width: 300px;
+  min-height: 600px;
+  background-color: antiquewhite;
+  color: rgb(43, 7, 62);
+}
